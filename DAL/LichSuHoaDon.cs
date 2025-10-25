@@ -7,13 +7,20 @@ using System.Threading.Tasks;
 
 namespace DAL.Models
 {
-    public class  LichSuHoaDon
+    public class LichSuHoaDon
     {
-        [ Key]
+        [Key]
         public string TenCaPhe { get; set; }
         public int SoLuong { get; set; }
         public decimal DonGia { get; set; }
         public decimal ThanhTien { get; set; }
-        public decimal ThanhGia { get;set; }
+        public decimal ThanhGia { get; set; }
+
+        public int SoLuongBan { get; set; } = 0;
+        public String Soban { get; set; }
+        public decimal TongTien { get; set; }
+
+
+
     }
 }

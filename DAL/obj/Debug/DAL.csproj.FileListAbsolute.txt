@@ -34,3 +34,15 @@ D:\CAFE\CAFE\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\CAFE\CAFE\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\CAFE\CAFE\DAL\obj\Debug\DAL.dll
 D:\CAFE\CAFE\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\bin\Debug\DAL.dll.config
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\bin\Debug\DAL.dll
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\bin\Debug\EntityFramework.dll
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\bin\Debug\EntityFramework.xml
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.dll
+C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.pdb

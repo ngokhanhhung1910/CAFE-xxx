@@ -54,6 +54,7 @@
     <Compile Include="LichSuHoaDonBUS.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaiKhoanBUS.cs" />
+    <Compile Include="TemporaryOrderStorage.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

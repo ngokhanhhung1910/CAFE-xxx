@@ -180,38 +180,44 @@ namespace GUI
         private void btnThanhToan_Click(object sender, EventArgs e)
         {
             decimal tongTien = 0;
+            List<OrderItem> tempOrder = new List<OrderItem>();
 
             foreach (DataGridViewRow row in dgvDrinksManagement.Rows)
             {
+                if (row.IsNewRow) continue;
+
                 if (row.Cells["colDonGia"].Value != null && row.Cells["colSoLuong"].Value != null)
                 {
                     decimal donGia = Convert.ToDecimal(row.Cells["colDonGia"].Value);
                     int soLuong = Convert.ToInt32(row.Cells["colSoLuong"].Value);
-
                     decimal thanhTien = donGia * soLuong;
                     tongTien += thanhTien;
 
                     if (dgvDrinksManagement.Columns["colThanhTien"] != null)
-                    {
                         row.Cells["colThanhTien"].Value = thanhTien.ToString("N0");
-                    }
+
+                    string tenCaPhe = row.Cells["colTenCaFe"].Value.ToString();
+
+                    tempOrder.Add(new OrderItem
+                    {
+                        TenCaPhe = tenCaPhe,
+                        SoLuong = soLuong,
+                        DonGia = donGia,
+                        ThanhTien = thanhTien
+                    });
                 }
             }
+
             txtTongTien.Text = tongTien.ToString("N0") + " VND";
 
-            LichSuHoaDonBUS lichSuHoaDonBUS = new LichSuHoaDonBUS();
-            foreach (DataGridViewRow row in dgvDrinksManagement.Rows)
-            {
-                if (row.IsNewRow)
-                    continue;
-                string tenCaPhe = row.Cells["colTenCaFe"].Value.ToString();
-                decimal donGia = Convert.ToDecimal(row.Cells["colDonGia"].Value);
-                int soLuong = Convert.ToInt32(row.Cells["colSoLuong"].Value);
-                decimal thanhTien = donGia * soLuong;
-                decimal thanhGia = tongTien;
-                lichSuHoaDonBUS.LuuLichSu(tenCaPhe, soLuong, donGia, thanhTien, thanhGia);
-            }
-            MessageBox.Show("Thanh toán thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // Gán vào bộ nhớ tạm
+            TemporaryOrderStorage.CurrentOrder = tempOrder;
+            TemporaryOrderStorage.TongTien = tongTien;
+
+            // Chuyển sang form OrderManagement
+            OrderManagement orderForm = new OrderManagement();
+            orderForm.Show();
+            this.Hide(); // hoặc Close() nếu bạn muốn tắt form hiện tại
         }
 
         private void lblGiaCAFE5_Click(object sender, EventArgs e)

@@ -12,7 +12,7 @@ namespace BUS
     {
         private readonly LichSuHoaDonDAL lichSuHoaDonDAL = new LichSuHoaDonDAL();
 
-        public void LuuLichSu(String TenCaPhe, int SoLuong, decimal DonGia, decimal ThanhTien, decimal ThanhGia)
+        public void LuuLichSu(String TenCaPhe, int SoLuong, decimal DonGia, decimal ThanhTien, decimal ThanhGia, int soLuongBan, String soBan)
         {
             var lichSuHoaDon = new LichSuHoaDon
             {
@@ -20,7 +20,10 @@ namespace BUS
                 SoLuong = SoLuong,
                 DonGia = DonGia,
                 ThanhTien = ThanhTien,
-                ThanhGia = ThanhGia
+                ThanhGia = ThanhGia,
+                TongTien = ThanhGia,
+                SoLuongBan = soLuongBan,
+                Soban = soBan,
             };
             lichSuHoaDonDAL.LuuLichSuHoaDon(lichSuHoaDon);
         }
