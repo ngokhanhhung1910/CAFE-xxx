@@ -46,3 +46,15 @@ C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cac
 C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.csproj.Up2Date
 C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.dll
 C:\Users\HP\Source\Repos\CAFE-xxx\DAL\obj\Debug\DAL.pdb
+H:\ĐỒ ÁN\CAFE-xxx\DAL\bin\Debug\DAL.dll.config
+H:\ĐỒ ÁN\CAFE-xxx\DAL\bin\Debug\DAL.dll
+H:\ĐỒ ÁN\CAFE-xxx\DAL\bin\Debug\DAL.pdb
+H:\ĐỒ ÁN\CAFE-xxx\DAL\bin\Debug\EntityFramework.dll
+H:\ĐỒ ÁN\CAFE-xxx\DAL\bin\Debug\EntityFramework.SqlServer.dll
+H:\ĐỒ ÁN\CAFE-xxx\DAL\bin\Debug\EntityFramework.xml
+H:\ĐỒ ÁN\CAFE-xxx\DAL\bin\Debug\EntityFramework.SqlServer.xml
+H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.csproj.Up2Date
+H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.dll
+H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.pdb

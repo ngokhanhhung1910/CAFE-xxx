@@ -58,3 +58,18 @@ C:\Users\HP\Source\Repos\CAFE-xxx\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cac
 C:\Users\HP\Source\Repos\CAFE-xxx\BUS\obj\Debug\BUS.csproj.Up2Date
 C:\Users\HP\Source\Repos\CAFE-xxx\BUS\obj\Debug\BUS.dll
 C:\Users\HP\Source\Repos\CAFE-xxx\BUS\obj\Debug\BUS.pdb
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\BUS.dll.config
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\BUS.dll
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\BUS.pdb
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\DAL.dll
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\EntityFramework.dll
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\EntityFramework.SqlServer.dll
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\DAL.pdb
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\DAL.dll.config
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\EntityFramework.xml
+H:\ĐỒ ÁN\CAFE-xxx\BUS\bin\Debug\EntityFramework.SqlServer.xml
+H:\ĐỒ ÁN\CAFE-xxx\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+H:\ĐỒ ÁN\CAFE-xxx\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+H:\ĐỒ ÁN\CAFE-xxx\BUS\obj\Debug\BUS.csproj.Up2Date
+H:\ĐỒ ÁN\CAFE-xxx\BUS\obj\Debug\BUS.dll
+H:\ĐỒ ÁN\CAFE-xxx\BUS\obj\Debug\BUS.pdb

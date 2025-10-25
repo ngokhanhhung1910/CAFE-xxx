@@ -1,49 +1,61 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\",
+  "WorkspaceRootPath": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|c:\\users\\hp\\source\\repos\\cafe-xxx\\gui\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|solutionrelative:gui\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|h:\\\u0111\u1ED3 \u00E1n\\cafe-xxx\\gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|solutionrelative:gui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|c:\\users\\hp\\source\\repos\\cafe-xxx\\bus\\temporaryorderstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|solutionrelative:bus\\temporaryorderstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|h:\\\u0111\u1ED3 \u00E1n\\cafe-xxx\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|solutionrelative:dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|c:\\users\\hp\\source\\repos\\cafe-xxx\\dal\\lichsuhoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|h:\\\u0111\u1ED3 \u00E1n\\cafe-xxx\\bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|solutionrelative:bus\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\dal\\lichsuhoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|solutionrelative:dal\\lichsuhoadondal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|c:\\users\\hp\\source\\repos\\cafe-xxx\\dal\\lichsuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|h:\\\u0111\u1ED3 \u00E1n\\cafe-xxx\\gui\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|solutionrelative:gui\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\bus\\temporaryorderstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|solutionrelative:bus\\temporaryorderstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\dal\\lichsuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|solutionrelative:dal\\lichsuhoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|c:\\users\\hp\\source\\repos\\cafe-xxx\\dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6A35EB-1BAA-4D04-B874-683B1BD5636A}|DAL\\DAL.csproj|solutionrelative:dal\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|c:\\users\\hp\\source\\repos\\cafe-xxx\\bus\\lichsuhoadonbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\bus\\lichsuhoadonbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|solutionrelative:bus\\lichsuhoadonbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|C:\\Users\\HP\\source\\repos\\CAFE-xxx\\gui\\drinksmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\gui\\drinksmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|solutionrelative:gui\\drinksmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|C:\\Users\\HP\\source\\repos\\CAFE-xxx\\gui\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\gui\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|solutionrelative:gui\\ordermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|C:\\Users\\HP\\source\\repos\\CAFE-xxx\\bus\\taikhoanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\bus\\taikhoanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2641CD87-3224-4DAF-ABC2-574D11E42896}|BUS\\BUS.csproj|solutionrelative:bus\\taikhoanbus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|c:\\users\\hp\\source\\repos\\cafe-xxx\\gui\\drinksmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\gui\\drinksmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|solutionrelative:gui\\drinksmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|C:\\Users\\HP\\source\\repos\\CAFE-xxx\\gui\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\gui\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{745FA57E-8371-48C1-91A3-48FA6A1614F5}|GUI\\GUI.csproj|solutionrelative:gui\\history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -54,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,20 +77,51 @@
               "Name": "ST:0:0:{d84ee353-0bef-5a41-a649-8f89aca5d84d}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\App.config",
+              "RelativeDocumentMoniker": "GUI\\App.config",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\App.config",
+              "RelativeToolTip": "GUI\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-25T20:00:22.126Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "App.config",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\App.config",
+              "RelativeDocumentMoniker": "DAL\\App.config",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\App.config",
+              "RelativeToolTip": "DAL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-25T20:00:04.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\App.config",
+              "RelativeDocumentMoniker": "BUS\\App.config",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\App.config",
+              "RelativeToolTip": "BUS\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-25T20:00:01.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "OrderManagement.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\OrderManagement.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\OrderManagement.cs",
               "RelativeDocumentMoniker": "GUI\\OrderManagement.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\OrderManagement.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\OrderManagement.cs",
               "RelativeToolTip": "GUI\\OrderManagement.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAwBwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,63 +130,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "DbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\DAL\\DbContext.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\DbContext.cs",
               "RelativeDocumentMoniker": "DAL\\DbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\DAL\\DbContext.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\DbContext.cs",
               "RelativeToolTip": "DAL\\DbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T16:00:09.472Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T16:00:09.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LichSuHoaDon.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\LichSuHoaDon.cs",
+              "RelativeDocumentMoniker": "DAL\\LichSuHoaDon.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\LichSuHoaDon.cs",
+              "RelativeToolTip": "DAL\\LichSuHoaDon.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T15:47:09.635Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LichSuHoaDon.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\DAL\\LichSuHoaDon.cs",
-              "RelativeDocumentMoniker": "DAL\\LichSuHoaDon.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\DAL\\LichSuHoaDon.cs",
-              "RelativeToolTip": "DAL\\LichSuHoaDon.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:47:09.635Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "LichSuHoaDonDAL.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\DAL\\LichSuHoaDonDAL.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\LichSuHoaDonDAL.cs",
               "RelativeDocumentMoniker": "DAL\\LichSuHoaDonDAL.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\DAL\\LichSuHoaDonDAL.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\DAL\\LichSuHoaDonDAL.cs",
               "RelativeToolTip": "DAL\\LichSuHoaDonDAL.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T15:47:37.036Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "TemporaryOrderStorage.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\BUS\\TemporaryOrderStorage.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\TemporaryOrderStorage.cs",
               "RelativeDocumentMoniker": "BUS\\TemporaryOrderStorage.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\BUS\\TemporaryOrderStorage.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\TemporaryOrderStorage.cs",
               "RelativeToolTip": "BUS\\TemporaryOrderStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T14:58:36.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T14:58:36.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "OrderManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\OrderManagement.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\OrderManagement.cs",
               "RelativeDocumentMoniker": "GUI\\OrderManagement.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\OrderManagement.cs [Design]",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\OrderManagement.cs [Design]",
               "RelativeToolTip": "GUI\\OrderManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-23T09:20:10.805Z",
@@ -151,66 +191,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DrinksManagement.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\DrinksManagement.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\DrinksManagement.cs",
               "RelativeDocumentMoniker": "GUI\\DrinksManagement.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\DrinksManagement.cs [Design]",
-              "RelativeToolTip": "GUI\\DrinksManagement.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T09:19:47.076Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LichSuHoaDonBUS.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\BUS\\LichSuHoaDonBUS.cs",
-              "RelativeDocumentMoniker": "BUS\\LichSuHoaDonBUS.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\BUS\\LichSuHoaDonBUS.cs",
-              "RelativeToolTip": "BUS\\LichSuHoaDonBUS.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA6wB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T15:41:30.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-23T09:19:47.076Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "LichSuHoaDonBUS.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\LichSuHoaDonBUS.cs",
+              "RelativeDocumentMoniker": "BUS\\LichSuHoaDonBUS.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\LichSuHoaDonBUS.cs",
+              "RelativeToolTip": "BUS\\LichSuHoaDonBUS.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA6wB0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-25T15:41:30.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "TaiKhoanBUS.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\BUS\\TaiKhoanBUS.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\TaiKhoanBUS.cs",
               "RelativeDocumentMoniker": "BUS\\TaiKhoanBUS.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\BUS\\TaiKhoanBUS.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\BUS\\TaiKhoanBUS.cs",
               "RelativeToolTip": "BUS\\TaiKhoanBUS.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAUwBsAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T09:13:53.283Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T09:13:53.283Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DrinksManagement.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\DrinksManagement.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\DrinksManagement.cs",
               "RelativeDocumentMoniker": "GUI\\DrinksManagement.cs",
-              "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\DrinksManagement.cs",
+              "ToolTip": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\DrinksManagement.cs",
               "RelativeToolTip": "GUI\\DrinksManagement.cs",
               "ViewState": "AgIAAMUAAAAAAAAAAAAowNgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-25T14:48:59.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-25T14:48:59.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "History.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\History.cs",
+              "DocumentMoniker": "H:\\\u0110\u1ED2 \u00C1N\\CAFE-xxx\\GUI\\History.cs",
               "RelativeDocumentMoniker": "GUI\\History.cs",
               "ToolTip": "C:\\Users\\HP\\source\\repos\\CAFE-xxx\\GUI\\History.cs [Design]",
-              "RelativeToolTip": "GUI\\History.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-23T09:19:54.993Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-23T09:19:54.993Z"
             }
           ]
         }
