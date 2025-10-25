@@ -1,16 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Data.Entity;
-using System.Security.Cryptography.X509Certificates;
+﻿using System.Data.Entity;
+using DAL.Models; // <-- Thêm dòng này
 
-namespace DAL.Models
+namespace DAL.Models // Đảm bảo namespace là DAL.Models
 {
     public class DbcontextContext : DbContext
     {
-        public DbcontextContext() : base("LICHSUHOADON") { }
+        // Tên chuỗi kết nối (sẽ tạo ở Bước 4)
+        public DbcontextContext() : base("LICHSUHOADON") { } 
+        
         public DbSet<LichSuHoaDon> LichSuHoaDon { get; set;}
+
+        // --- THÊM DÒNG NÀY ĐỂ KHAI BÁO BẢNG TÀI KHOẢN ---
+        public DbSet<TaiKhoan> TaiKhoans { get; set; }
     }
 }
