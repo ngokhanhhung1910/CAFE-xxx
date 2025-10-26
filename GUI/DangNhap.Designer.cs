@@ -29,122 +29,151 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblLogo = new System.Windows.Forms.Label();
             this.lblUsername = new System.Windows.Forms.Label();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.llblRegister = new System.Windows.Forms.LinkLabel();
+            this.pnlLogin = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pnlLogin.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // lblLogo
-            // 
-            this.lblLogo.BackColor = System.Drawing.Color.Transparent;
-            this.lblLogo.Font = new System.Drawing.Font("Segoe UI", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.lblLogo.ForeColor = System.Drawing.Color.Fuchsia;
-            this.lblLogo.Location = new System.Drawing.Point(12, 9);
-            this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(1238, 175);
-            this.lblLogo.TabIndex = 0;
-            this.lblLogo.Text = "WELCOME TO THE \r\nWORLD OF COFFEE\r\n";
-            this.lblLogo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
             this.lblUsername.BackColor = System.Drawing.Color.Transparent;
-            this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUsername.ForeColor = System.Drawing.Color.White;
-            this.lblUsername.Location = new System.Drawing.Point(400, 280);
+            this.lblUsername.Font = new System.Drawing.Font("Sitka Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblUsername.ForeColor = System.Drawing.Color.Black;
+            this.lblUsername.Location = new System.Drawing.Point(14, 75);
+            this.lblUsername.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(155, 28);
+            this.lblUsername.Size = new System.Drawing.Size(126, 23);
             this.lblUsername.TabIndex = 1;
-            this.lblUsername.Text = "Tên đăng nhập:";
+            this.lblUsername.Text = "Tên đăng nhập";
+            this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // txtUsername
             // 
+            this.txtUsername.BackColor = System.Drawing.Color.Silver;
+            this.txtUsername.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsername.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUsername.Location = new System.Drawing.Point(570, 277);
+            this.txtUsername.Location = new System.Drawing.Point(18, 98);
+            this.txtUsername.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(290, 34);
+            this.txtUsername.Size = new System.Drawing.Size(258, 22);
             this.txtUsername.TabIndex = 2;
             // 
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
             this.lblPassword.BackColor = System.Drawing.Color.Transparent;
-            this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPassword.ForeColor = System.Drawing.Color.White;
-            this.lblPassword.Location = new System.Drawing.Point(400, 330);
+            this.lblPassword.Font = new System.Drawing.Font("Sitka Text", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPassword.ForeColor = System.Drawing.Color.Black;
+            this.lblPassword.Location = new System.Drawing.Point(14, 136);
+            this.lblPassword.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(107, 28);
+            this.lblPassword.Size = new System.Drawing.Size(85, 23);
             this.lblPassword.TabIndex = 3;
-            this.lblPassword.Text = "Mật khẩu:";
+            this.lblPassword.Text = "Mật khẩu";
             // 
             // txtPassword
             // 
+            this.txtPassword.BackColor = System.Drawing.Color.Silver;
+            this.txtPassword.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPassword.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(570, 327);
+            this.txtPassword.ForeColor = System.Drawing.Color.IndianRed;
+            this.txtPassword.Location = new System.Drawing.Point(18, 159);
+            this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(290, 34);
+            this.txtPassword.Size = new System.Drawing.Size(258, 22);
             this.txtPassword.TabIndex = 4;
+            this.txtPassword.TextChanged += new System.EventHandler(this.txtPassword_TextChanged);
             // 
             // btnLogin
             // 
             this.btnLogin.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogin.Location = new System.Drawing.Point(570, 380);
+            this.btnLogin.Location = new System.Drawing.Point(91, 194);
+            this.btnLogin.Margin = new System.Windows.Forms.Padding(2);
             this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(150, 45);
+            this.btnLogin.Size = new System.Drawing.Size(112, 37);
             this.btnLogin.TabIndex = 5;
             this.btnLogin.Text = "Đăng nhập";
             this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click); // Quan trọng
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // llblRegister
             // 
             this.llblRegister.AutoSize = true;
             this.llblRegister.BackColor = System.Drawing.Color.Transparent;
-            this.llblRegister.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.llblRegister.LinkColor = System.Drawing.Color.Cyan;
-            this.llblRegister.Location = new System.Drawing.Point(707, 438);
+            this.llblRegister.Font = new System.Drawing.Font("Sitka Text", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.llblRegister.LinkColor = System.Drawing.SystemColors.MenuText;
+            this.llblRegister.Location = new System.Drawing.Point(150, 233);
+            this.llblRegister.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.llblRegister.Name = "llblRegister";
-            this.llblRegister.Size = new System.Drawing.Size(153, 23);
+            this.llblRegister.Size = new System.Drawing.Size(135, 20);
             this.llblRegister.TabIndex = 6;
             this.llblRegister.TabStop = true;
             this.llblRegister.Text = "Chưa có tài khoản?";
-            this.llblRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llblRegister_LinkClicked); // Quan trọng
+            this.llblRegister.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.llblRegister_LinkClicked);
+            // 
+            // pnlLogin
+            // 
+            this.pnlLogin.BackColor = System.Drawing.SystemColors.Window;
+            this.pnlLogin.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pnlLogin.Controls.Add(this.textBox1);
+            this.pnlLogin.Controls.Add(this.llblRegister);
+            this.pnlLogin.Controls.Add(this.txtUsername);
+            this.pnlLogin.Controls.Add(this.btnLogin);
+            this.pnlLogin.Controls.Add(this.txtPassword);
+            this.pnlLogin.Controls.Add(this.lblUsername);
+            this.pnlLogin.Controls.Add(this.lblPassword);
+            this.pnlLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pnlLogin.Location = new System.Drawing.Point(629, 156);
+            this.pnlLogin.Name = "pnlLogin";
+            this.pnlLogin.Size = new System.Drawing.Size(289, 261);
+            this.pnlLogin.TabIndex = 7;
+            this.pnlLogin.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.SystemColors.Window;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(66, 15);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(166, 31);
+            this.textBox1.TabIndex = 7;
+            this.textBox1.Text = "ĐĂNG NHẬP";
             // 
             // DangNhap
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::GUI.Properties.Resources.nathan_dumlao_6VhPY27jdps_unsplash;
+            this.BackgroundImage = global::GUI.Properties.Resources.coffee_1281708_6401;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1262, 721);
-            this.Controls.Add(this.llblRegister);
-            this.Controls.Add(this.btnLogin);
-            this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.lblPassword);
-            this.Controls.Add(this.txtUsername);
-            this.Controls.Add(this.lblUsername);
-            this.Controls.Add(this.lblLogo);
-            this.Name = "DangNhap"; // Đổi tên Form
-            this.Text = "Dang Nhap"; // Đổi tiêu đề cửa sổ
+            this.ClientSize = new System.Drawing.Size(946, 586);
+            this.Controls.Add(this.pnlLogin);
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "DangNhap";
+            this.Text = "Dang Nhap";
+            this.Load += new System.EventHandler(this.DangNhap_Load);
+            this.pnlLogin.ResumeLayout(false);
+            this.pnlLogin.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.Label lblUsername;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.LinkLabel llblRegister;
+        private System.Windows.Forms.Panel pnlLogin;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

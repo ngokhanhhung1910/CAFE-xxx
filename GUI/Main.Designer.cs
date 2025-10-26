@@ -68,7 +68,7 @@
             this.pnlFunction.Location = new System.Drawing.Point(0, 2);
             this.pnlFunction.Margin = new System.Windows.Forms.Padding(2);
             this.pnlFunction.Name = "pnlFunction";
-            this.pnlFunction.Size = new System.Drawing.Size(150, 500);
+            this.pnlFunction.Size = new System.Drawing.Size(177, 500);
             this.pnlFunction.TabIndex = 0;
             // 
             // lblLogoCaFe

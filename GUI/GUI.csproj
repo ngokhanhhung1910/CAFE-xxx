@@ -42,6 +42,7 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.5.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="QuestPDF, Version=2025.7.3.0, Culture=neutral, PublicKeyToken=0f3c2b2315ff52c8, processorArchitecture=MSIL">
       <HintPath>..\packages\QuestPDF.2025.7.3\lib\netstandard2.0\QuestPDF.dll</HintPath>
     </Reference>
@@ -177,6 +178,63 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\anh-cafe-20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-negativespace-34085.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-1281708_640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2799161_640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2242213_640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-1281708_6401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe-1618628_640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-9411892_640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-2714970_640.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe-den-nong.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1746441267_latte-bac-xiu_a6fe420fef6f4ec7a2e4f87e9e03ef4b_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\latte_nong_77d6c8dd1ce84d0f900f83d99f069557_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1737355571_chocolate-nong_c7331fe6900b403c83633a435f3527ac_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1737355560_chocolate-da_93e902464187494a8d309db309796206_grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ca_phe_phin_den_da_66c9be0094354e8693117543770b2661_master.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-in1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-in2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-in3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-in4.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

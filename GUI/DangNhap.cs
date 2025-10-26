@@ -54,5 +54,25 @@ namespace GUI
             DangKy frmDangKy = new DangKy();
             frmDangKy.ShowDialog();
         }
+
+        private void DangNhap_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtPassword_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblUsername_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

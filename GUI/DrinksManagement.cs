@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -16,6 +17,7 @@ namespace GUI
         public DrinksManagement()
         {
             InitializeComponent();
+            // Thêm nhanh bằng code (chỉ dùng nếu bạn muốn)
         }
 
         private void btnChonCAFE1_Click(object sender, EventArgs e)
@@ -229,6 +231,116 @@ namespace GUI
         {
 
         }
+
+        private void lblGiaCAFE1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pnlMain_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra có hàng nào được chọn chưa
+            if (dgvDrinksManagement.CurrentRow == null || dgvDrinksManagement.CurrentRow.IsNewRow)
+            {
+                MessageBox.Show("Vui lòng chọn một hàng để sửa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Lấy hàng hiện tại
+            DataGridViewRow selectedRow = dgvDrinksManagement.CurrentRow;
+
+            // Lấy dữ liệu hiện tại
+            string tenCaFe = selectedRow.Cells["colTenCaFe"].Value?.ToString();
+            string donGiaStr = selectedRow.Cells["colDonGia"].Value?.ToString().Replace(",", "");
+            string soLuongStr = selectedRow.Cells["colSoLuong"].Value?.ToString();
+
+            decimal donGia;
+            int soLuong;
+
+            if (!decimal.TryParse(donGiaStr, out donGia))
+            {
+                MessageBox.Show("Đơn giá không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            if (!int.TryParse(soLuongStr, out soLuong))
+            {
+                MessageBox.Show("Số lượng không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Hiển thị form nhỏ hoặc hộp thoại nhập thông tin sửa
+            string newTenCaFe = Microsoft.VisualBasic.Interaction.InputBox("Tên cà phê:", "Sửa thông tin", tenCaFe);
+            string newDonGiaStr = Microsoft.VisualBasic.Interaction.InputBox("Đơn giá:", "Sửa thông tin", donGia.ToString());
+            string newSoLuongStr = Microsoft.VisualBasic.Interaction.InputBox("Số lượng:", "Sửa thông tin", soLuong.ToString());
+
+            if (string.IsNullOrWhiteSpace(newTenCaFe) || string.IsNullOrWhiteSpace(newDonGiaStr) || string.IsNullOrWhiteSpace(newSoLuongStr))
+                return;
+
+            decimal newDonGia;
+            int newSoLuong;
+
+            if (!decimal.TryParse(newDonGiaStr, out newDonGia) || !int.TryParse(newSoLuongStr, out newSoLuong))
+            {
+                MessageBox.Show("Giá trị nhập không hợp lệ!", "Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
+            // Cập nhật lại hàng trong DataGridView
+            decimal newThanhTien = newDonGia * newSoLuong;
+            selectedRow.Cells["colTenCaFe"].Value = newTenCaFe;
+            selectedRow.Cells["colDonGia"].Value = newDonGia.ToString("N0");
+            selectedRow.Cells["colSoLuong"].Value = newSoLuong;
+            selectedRow.Cells["colThanhTien"].Value = newThanhTien.ToString("N0");
+
+            // Gọi lại hàm tính tổng tiền
+            TinhTongTien1(); // hoặc TinhTongTien() chung nếu bạn muốn gộp lại
+
+            MessageBox.Show("Đã cập nhật thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+
+        private void dgvDrinksManagement_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Kiểm tra có hàng nào được chọn chưa
+            if (dgvDrinksManagement.CurrentRow == null || dgvDrinksManagement.CurrentRow.IsNewRow)
+            {
+                MessageBox.Show("Vui lòng chọn một hàng để xóa!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // Hỏi xác nhận trước khi xóa
+            DialogResult result = MessageBox.Show(
+                "Bạn có chắc muốn xóa hàng này không?",
+                "Xác nhận xóa",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Question
+            );
+
+            if (result == DialogResult.Yes)
+            {
+                // Xóa hàng được chọn
+                dgvDrinksManagement.Rows.Remove(dgvDrinksManagement.CurrentRow);
+
+                // Cập nhật lại tổng tiền sau khi xóa
+            }
+        }
+
     }
 }
     

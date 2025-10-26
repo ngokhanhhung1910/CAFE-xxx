@@ -111,5 +111,19 @@ namespace GUI
             this.Close();
         }
 
+        private void OrderManagement_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -88,3 +88,33 @@ D:\du an\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
 D:\du an\BUS\obj\Debug\BUS.csproj.Up2Date
 D:\du an\BUS\obj\Debug\BUS.dll
 D:\du an\BUS\obj\Debug\BUS.pdb
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\BUS.dll.config
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\BUS.dll
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\BUS.pdb
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\DAL.dll
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\EntityFramework.dll
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\DAL.pdb
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\DAL.dll.config
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\EntityFramework.xml
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\obj\Debug\BUS.dll
+C:\Users\giabe\Source\Repos\CAFE-x\BUS\obj\Debug\BUS.pdb
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\BUS.dll.config
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\BUS.dll
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\BUS.pdb
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\DAL.dll
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\EntityFramework.dll
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\DAL.pdb
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\DAL.dll.config
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\EntityFramework.xml
+C:\Users\HP\source\repos\CAFE-x\BUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\source\repos\CAFE-x\BUS\obj\Debug\BUS.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\CAFE-x\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CAFE-x\BUS\obj\Debug\BUS.csproj.Up2Date
+C:\Users\HP\source\repos\CAFE-x\BUS\obj\Debug\BUS.dll
+C:\Users\HP\source\repos\CAFE-x\BUS\obj\Debug\BUS.pdb

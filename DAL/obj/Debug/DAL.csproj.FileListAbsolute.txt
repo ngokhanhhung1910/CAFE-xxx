@@ -70,3 +70,27 @@ D:\du an\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\du an\DAL\obj\Debug\DAL.csproj.Up2Date
 D:\du an\DAL\obj\Debug\DAL.dll
 D:\du an\DAL\obj\Debug\DAL.pdb
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\bin\Debug\DAL.dll.config
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\bin\Debug\DAL.dll
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\bin\Debug\DAL.pdb
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\bin\Debug\EntityFramework.dll
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\bin\Debug\EntityFramework.xml
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\obj\Debug\DAL.dll
+C:\Users\giabe\Source\Repos\CAFE-x\DAL\obj\Debug\DAL.pdb
+C:\Users\HP\source\repos\CAFE-x\DAL\bin\Debug\DAL.dll.config
+C:\Users\HP\source\repos\CAFE-x\DAL\bin\Debug\DAL.dll
+C:\Users\HP\source\repos\CAFE-x\DAL\bin\Debug\DAL.pdb
+C:\Users\HP\source\repos\CAFE-x\DAL\bin\Debug\EntityFramework.dll
+C:\Users\HP\source\repos\CAFE-x\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\HP\source\repos\CAFE-x\DAL\bin\Debug\EntityFramework.xml
+C:\Users\HP\source\repos\CAFE-x\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\HP\source\repos\CAFE-x\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\CAFE-x\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\CAFE-x\DAL\obj\Debug\DAL.csproj.Up2Date
+C:\Users\HP\source\repos\CAFE-x\DAL\obj\Debug\DAL.dll
+C:\Users\HP\source\repos\CAFE-x\DAL\obj\Debug\DAL.pdb
