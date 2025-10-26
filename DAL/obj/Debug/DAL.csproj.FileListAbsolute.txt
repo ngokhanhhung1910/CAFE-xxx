@@ -58,3 +58,15 @@ H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.csproj.Up2Date
 H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.dll
 H:\ĐỒ ÁN\CAFE-xxx\DAL\obj\Debug\DAL.pdb
+D:\du an\DAL\bin\Debug\DAL.dll.config
+D:\du an\DAL\bin\Debug\DAL.dll
+D:\du an\DAL\bin\Debug\DAL.pdb
+D:\du an\DAL\bin\Debug\EntityFramework.dll
+D:\du an\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\du an\DAL\bin\Debug\EntityFramework.xml
+D:\du an\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\du an\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\du an\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\du an\DAL\obj\Debug\DAL.csproj.Up2Date
+D:\du an\DAL\obj\Debug\DAL.dll
+D:\du an\DAL\obj\Debug\DAL.pdb

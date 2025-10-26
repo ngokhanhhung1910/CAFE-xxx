@@ -30,7 +30,6 @@
         {
             this.pnlMenu = new System.Windows.Forms.Panel();
             this.pnlFunction = new System.Windows.Forms.Panel();
-            this.btnExportPDF = new System.Windows.Forms.Button();
             this.lblLogoCaFe = new System.Windows.Forms.Label();
             this.pnlHistory = new System.Windows.Forms.Panel();
             this.btnHistory = new System.Windows.Forms.Button();
@@ -62,7 +61,6 @@
             // pnlFunction
             // 
             this.pnlFunction.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.pnlFunction.Controls.Add(this.btnExportPDF);
             this.pnlFunction.Controls.Add(this.lblLogoCaFe);
             this.pnlFunction.Controls.Add(this.pnlHistory);
             this.pnlFunction.Controls.Add(this.pnlOrderManagement);
@@ -72,16 +70,6 @@
             this.pnlFunction.Name = "pnlFunction";
             this.pnlFunction.Size = new System.Drawing.Size(150, 500);
             this.pnlFunction.TabIndex = 0;
-            // 
-            // btnExportPDF
-            // 
-            this.btnExportPDF.Location = new System.Drawing.Point(32, 330);
-            this.btnExportPDF.Name = "btnExportPDF";
-            this.btnExportPDF.Size = new System.Drawing.Size(75, 23);
-            this.btnExportPDF.TabIndex = 4;
-            this.btnExportPDF.Text = "Xuất PDF";
-            this.btnExportPDF.UseVisualStyleBackColor = true;
-            this.btnExportPDF.Click += new System.EventHandler(this.btnExportPDF_Click);
             // 
             // lblLogoCaFe
             // 
@@ -215,6 +203,5 @@
         private System.Windows.Forms.Panel pnlDrinksManagement;
         private System.Windows.Forms.Button btnDrinksManagement;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button btnExportPDF;
     }
 }

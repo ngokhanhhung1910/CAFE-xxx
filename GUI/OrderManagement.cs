@@ -20,8 +20,6 @@ namespace GUI
         }
         private List<string> danhSachBanDaChon = new List<string>();
 
-        private bool isRed = false; // biến lưu trạng thái màu hiện tại
-
         private void ButtonSeat_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;

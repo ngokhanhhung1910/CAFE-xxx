@@ -93,7 +93,7 @@
     <Compile Include="DangNhap.Designer.cs">
       <DependentUpon>DangNhap.cs</DependentUpon>
     </Compile>
-    <Compile Include="MyDocument.cs" />
+    <Compile Include="HistoryDocument.cs" />
     <Compile Include="OrderManagement.cs">
       <SubType>Form</SubType>
     </Compile>
